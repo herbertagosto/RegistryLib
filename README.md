@@ -5,7 +5,7 @@ Simple library to read and edit registry
 
 ## Getting Started
 
-```
+```csharp
 string valueName = "Value_Name_Here";
 string subKeyName = "SubKey_Name_Here";
 
@@ -38,8 +38,8 @@ regedit_CurrentUser.DeleteSubKeyTree();
 
 ### Prerequisities
 
-.NET Framework 4
-Run app as Administrator
+- .NET Framework 4
+- Run app as Administrator
 
 
 ### Installing
